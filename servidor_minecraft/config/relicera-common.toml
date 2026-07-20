@@ -1,0 +1,184 @@
+
+[forgotten_thread]
+	#Chance for Forgotten Thread to be added to village chest loot. 0.04 = 4%.
+	#Range: 0.0 ~ 1.0
+	villageChestChance = 0.06
+	#Chance for Forgotten Thread to be added to ancient city chest loot. 0.03 = 3%.
+	#Range: 0.0 ~ 1.0
+	ancientCityChestChance = 0.03
+	#Chance for Forgotten Thread to be added to cat morning gifts. 0.20 = 20%.
+	#Range: 0.0 ~ 1.0
+	catGiftChance = 0.2
+
+[revival_nectar]
+	#Duration in ticks for Iluthia's Blessing granted by Revival Nectar. 400 ticks = 20 seconds.
+	#Range: 1 ~ 72000
+	iluthiasBlessingDuration = 400
+
+[iluthias_blessing]
+	#Maximum total absorption amount Iluthia's Blessing can accumulate. 60 = 30 absorption hearts. Existing absorption above this value is not reduced.
+	#Range: 0 ~ 1024
+	maxAbsorption = 60
+
+[ephemeral_bloom]
+	#Chance for Ephemeral Bloom to be added to sniffer digging loot during a new moon.
+	#Range: 0.0 ~ 1.0
+	snifferDiggingNewMoonChance = 0.17
+	#Chance for Ephemeral Bloom to be added to stronghold library chest loot.
+	#Range: 0.0 ~ 1.0
+	strongholdLibraryChestChance = 0.52
+
+[night_gloves]
+	#Melee attack damage bonus while Night Gloves are equipped at night. 0.20 = 20%.
+	#Range: 0.0 ~ 10.0
+	nightAttackDamageBonus = 0.2
+
+[warfire_fragment]
+	#Chance for Warfire Fragment to drop when an iron golem is killed during a raid by a configured entity type. 0.42 = 42%.
+	#Range: 0.0 ~ 1.0
+	ironGolemDropChance = 0.42
+	#Entity type ids that can trigger Warfire Fragment drops when killing an iron golem during a raid.
+	ironGolemKillerEntityTypes = ["minecraft:ravager", "minecraft:vindicator", "minecraft:pillager", "minecraft:evoker"]
+	#Range in blocks for Allays holding a Warfire Fragment to grant Strength II and Resistance I.
+	#Range: 0.0 ~ 128.0
+	allayAuraRange = 24.0
+
+[rotten_tusk]
+	#Range in blocks for players holding a Rotten Tusk to repel ordinary Piglins.
+	#Range: 0.0 ~ 64.0
+	piglinRepelRange = 12.0
+
+[feysilver_ingot]
+	#Chance for Feysilver Ingot to be added to selected overworld chest loot. 0.067 = 6.7%.
+	#Range: 0.0 ~ 1.0
+	overworldChestChance = 0.067
+
+[stormscale]
+	#Chance for Stormscale to drop when an Elder Guardian dies during a thunderstorm. 0.28 = 28%.
+	#Range: 0.0 ~ 1.0
+	elderGuardianThunderstormDropChance = 0.28
+
+[rippleheart_pearl]
+	#Chance for Rippleheart Pearl to drop when an Axolotl grants its assist Regeneration to a player. 0.06 = 6%.
+	#Range: 0.0 ~ 1.0
+	axolotlAssistChance = 0.06
+	#Chance for Rippleheart Pearl to be added to warm ocean ruin archaeology loot. 0.036 = 3.6%.
+	#Range: 0.0 ~ 1.0
+	warmOceanRuinArchaeologyChance = 0.036
+
+[extinguished_solar_furnace]
+	#Chance for Extinguished Solar Furnace to be added to bastion treasure chest loot. 0.37 = 37%.
+	#Range: 0.0 ~ 1.0
+	bastionTreasureChestChance = 0.37
+	#Chance for Extinguished Solar Furnace to be added to nether fortress chest loot. 0.055 = 5.5%.
+	#Range: 0.0 ~ 1.0
+	netherFortressChestChance = 0.055
+	#Chance for Extinguished Solar Furnace to be added to village weaponsmith chest loot. 0.031 = 3.1%.
+	#Range: 0.0 ~ 1.0
+	weaponsmithChestChance = 0.031
+
+[withered_life_chalice]
+	#Chance for Withered Life Chalice to be added to each woodland mansion chest. 10.8%.
+	#Range: 0.0 ~ 1.0
+	woodlandMansionChestChance = 0.108
+	#Chance for Withered Life Chalice to be added to each desert pyramid chest. 4.2%
+	#Range: 0.0 ~ 1.0
+	desertPyramidChestChance = 0.042
+	#Chance for Withered Life Chalice to be added to each jungle temple chest. 10%
+	#Range: 0.0 ~ 1.0
+	jungleTempleChestChance = 0.1
+	#Chance for Withered Life Chalice to be added to each dungeon chest. 1.6%
+	#Range: 0.0 ~ 1.0
+	simpleDungeonChestChance = 0.016
+
+[dried_crown]
+	#Chance for Dried Crown to be added to shipwreck treasure chest loot. 0.05 = 5%.
+	#Range: 0.0 ~ 1.0
+	shipwreckTreasureChestChance = 0.05
+	#Chance for Dried Crown to be added to big and small underwater ruin chest loot. 0.04 = 4%.
+	#Range: 0.0 ~ 1.0
+	underwaterRuinChestChance = 0.04
+	#Chance for Dried Crown to be added to buried treasure chest loot. 0.08 = 8%.
+	#Range: 0.0 ~ 1.0
+	buriedTreasureChestChance = 0.08
+	#Chance for Dried Crown to be added to cold and warm ocean ruin archaeology loot. 0.024 = 2.4%.
+	#Range: 0.0 ~ 1.0
+	oceanRuinArchaeologyChance = 0.024
+
+[brutal_plunder_badge]
+	#Looting level bonus while Brutal Plunder Badge is equipped.
+	#Range: 0 ~ 32
+	lootingBonus = 2
+	#Damage bonus per effective Looting level while Brutal Plunder Badge is equipped. 0.06D = 6%.
+	#Range: 0.0 ~ 10.0
+	damageBonusPerLootingLevel = 0.06
+
+[ashen_touch]
+	#Damage bonus for melee attacks against targets that were already burning before being hit while Ashen Touch is equipped. 4.0 = +400%.
+	#Range: 0.0 ~ 100.0
+	burningTargetDamageBonus = 4.0
+
+[strider_spurs]
+	#Movement speed bonus for ridden Striders while the rider has Strider Spurs equipped and holds a Warped Fungus on a Stick. 1.5 = +150%.
+	#Range: 0.0 ~ 10.0
+	speedBonus = 1.5
+
+[granbells_furnace]
+	#Damage added by wearing Granbell's Furnace.
+	#Range: 0.0 ~ 1024.0
+	damageBonus = 4.0
+	#If true, smithing templates are restored when players wearing Granbell's Furnace take a smithing table result.
+	preserveSmithingTemplates = true
+	#If true, players wearing Granbell's Furnace keep their inventory and curios when they die while in fire or lava.
+	keepInventoryInFireOrLava = true
+
+[iluthias_chalice]
+	#Damage bonus dealt to undead creatures while Iluthia's Chalice is equipped. 0.30 = +30%.
+	#Range: 0.0 ~ 10.0
+	undeadDamageBonus = 0.3
+	#Damage reduction against damage from undead creatures while Iluthia's Chalice is equipped. 0.30 = -30%.
+	#Range: 0.0 ~ 1.0
+	undeadDamageReduction = 0.3
+
+[nereias_crown]
+	#Damage reduction while Nereia's Crown is active in water or exposed rain. 0.40 = -40%.
+	#Range: 0.0 ~ 1.0
+	activeDamageReduction = 0.4
+	#Range in blocks for Nereia's Crown to count nearby aquatic creatures for its attribute aura.
+	#Range: 0.0 ~ 128.0
+	aquaticAuraRange = 24.0
+	#Share of nearby aquatic creatures' total attack damage added to the wearer. 0.30 = 30%.
+	#Range: 0.0 ~ 10.0
+	aquaticAttackDamageShare = 0.3
+	#Share of nearby aquatic creatures' total max health added as armor to the wearer. 0.10 = 10%.
+	#Range: 0.0 ~ 10.0
+	aquaticMaxHealthArmorShare = 0.1
+
+[dreamcatcher_box]
+	#Range in blocks for Dreamcatcher Boxes to react to nearby sleeping players and villagers.
+	#Range: 0.0 ~ 64.0
+	sleepRange = 8.0
+
+[tempest_sprint]
+	#Movement speed bonus for vanilla Horses under Tempest Sprint. 0.40 = +40%.
+	#Range: 0.0 ~ 10.0
+	speedBonus = 0.4
+	#Damage reduction for vanilla Horses under Tempest Sprint. 0.60 = -60%.
+	#Range: 0.0 ~ 1.0
+	damageReduction = 0.6
+	#Base knockback to hostile mobs when colliding.
+	#Range: 0.0 ~ 64.0
+	collisionKnockback = 2.0
+	#Base damage to hostile mobs when colliding.
+	#Range: 0.0 ~ 1024.0
+	collisionDamage = 8.0
+	#Range of full jump shockwave.
+	#Range: 0.0 ~ 64.0
+	fullJumpShockwaveRange = 12.0
+	#Damage applied when full jump under Tempest Sprint.
+	#Range: 0.0 ~ 1024.0
+	fullJumpShockwaveDamage = 18.0
+	#Knockback applied when full jump under Tempest Sprint.
+	#Range: 0.0 ~ 64.0
+	fullJumpShockwaveKnockback = 2.5
+

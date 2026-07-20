@@ -1,0 +1,394 @@
+[20Jul2026 01:11:35.469] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.21, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Jul2026 01:11:35.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[20Jul2026 01:11:39.937] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Jul2026 01:11:40.085] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[20Jul2026 01:11:40.165] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[20Jul2026 01:11:40.190] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[20Jul2026 01:11:40.231] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/modsito-1/servidor_minecraft/mods/Connector-1.0.0-beta.49+1.20.1.jar%23158%23161!/ Service=ModLauncher Env=SERVER
+[20Jul2026 01:11:40.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/modsito-1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.21/fmlcore-1.20.1-47.4.21.jar is missing mods.toml file
+[20Jul2026 01:11:40.765] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/modsito-1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.21/javafmllanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[20Jul2026 01:11:40.766] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/modsito-1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.21/lowcodelanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[20Jul2026 01:11:40.768] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/modsito-1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.21/mclanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[20Jul2026 01:11:41.633] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 54 dependencies adding them to mods collection
+[20Jul2026 01:11:42.291] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 2 candidates to load
+[20Jul2026 01:11:44.139] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[20Jul2026 01:11:45.213] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Jul2026 01:11:45.478] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Jul2026 01:11:45.739] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jul2026 01:11:45.827] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jul2026 01:11:45.992] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jul2026 01:11:46.174] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:46.215] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:46.664] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[20Jul2026 01:11:46.666] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[20Jul2026 01:11:46.667] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin from mod relics
+[20Jul2026 01:11:46.699] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[20Jul2026 01:11:46.699] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[20Jul2026 01:11:46.700] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[20Jul2026 01:11:46.702] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[20Jul2026 01:11:46.702] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[20Jul2026 01:11:46.703] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[20Jul2026 01:11:47.592] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[20Jul2026 01:11:47.593] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg.mixins.json:PlayerAnimMixin from mod mmorpg
+[20Jul2026 01:11:47.999] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER
+[20Jul2026 01:11:47.999] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Camera (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Camera for invalid dist DEDICATED_SERVER)
+[20Jul2026 01:11:48.000] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Camera was not found legendary_monsters.mixins.json:CameraInvoker from mod legendary_monsters
+[20Jul2026 01:11:48.308] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants$Key (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants$Key)
+[20Jul2026 01:11:48.501] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Jul2026 01:11:52.818] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:52.819] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:52.839] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:52.841] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Jul2026 01:11:56.728] [modloading-worker-0/INFO] [com.leclowndu93150.corpsecurioscompat.Main/]: Hello from Gravestone Curios Compat!
+[20Jul2026 01:11:56.822] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
+[20Jul2026 01:11:56.887] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : ancient_obelisks
+[20Jul2026 01:11:57.096] [modloading-worker-0/INFO] [net.mahjerion.mns_extras.config.ProfessionShopConfig/]: Loaded profession shop config with 2 profession categories
+[20Jul2026 01:11:57.339] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[20Jul2026 01:11:57.339] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[20Jul2026 01:11:57.341] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[20Jul2026 01:11:57.507] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Jul2026 01:11:57.693] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
+[20Jul2026 01:11:57.723] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[20Jul2026 01:11:57.765] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
+[20Jul2026 01:11:57.909] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20Jul2026 01:11:57.916] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20Jul2026 01:11:57.919] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20Jul2026 01:11:57.926] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20Jul2026 01:11:57.929] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20Jul2026 01:11:57.930] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20Jul2026 01:11:57.931] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20Jul2026 01:11:58.061] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[20Jul2026 01:11:58.169] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.21, for MC 1.20.1 with MCP 20230612.114412
+[20Jul2026 01:11:58.170] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.21 Initialized
+[20Jul2026 01:11:58.489] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
+[20Jul2026 01:11:58.737] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
+[20Jul2026 01:11:58.924] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[20Jul2026 01:11:59.273] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[20Jul2026 01:11:59.274] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[20Jul2026 01:11:59.900] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[20Jul2026 01:12:00.818] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[20Jul2026 01:12:00.901] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[20Jul2026 01:12:00.909] [Thread-2/INFO] [Spartan Weaponry/]: Updating config settings!
+[20Jul2026 01:12:00.918] [Thread-2/INFO] [Spartan Weaponry/]: Updating config settings!
+[20Jul2026 01:12:01.092] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[20Jul2026 01:12:01.173] [modloading-worker-0/INFO] [com.yukari.relicera.ReliceraMod/]: Relicera common setup complete.
+[20Jul2026 01:12:01.210] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[20Jul2026 01:12:01.357] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[20Jul2026 01:12:01.639] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[20Jul2026 01:12:01.639] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[20Jul2026 01:12:01.642] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
+[20Jul2026 01:12:01.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[20Jul2026 01:12:02.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[20Jul2026 01:12:02.308] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20Jul2026 01:12:02.404] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 1.20.1-6.0.0-beta.4 Target: 5.10.3
+[20Jul2026 01:12:02.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Jul2026 01:12:02.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.21 Target: null
+[20Jul2026 01:12:02.522] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[20Jul2026 01:12:03.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[20Jul2026 01:12:04.337] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Jul2026 01:12:05.547] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/modsito-1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[20Jul2026 01:12:05.548] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/modsito-1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[20Jul2026 01:12:07.513] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[20Jul2026 01:12:09.167] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[20Jul2026 01:12:09.198] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[20Jul2026 01:12:09.327] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[20Jul2026 01:12:09.715] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Jul2026 01:12:09.716] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[20Jul2026 01:12:09.724] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Jul2026 01:12:09.724] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[20Jul2026 01:12:09.735] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Jul2026 01:12:09.735] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[20Jul2026 01:12:09.756] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Jul2026 01:12:09.756] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[20Jul2026 01:12:09.759] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[20Jul2026 01:12:09.760] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[20Jul2026 01:12:09.771] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Jul2026 01:12:09.771] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[20Jul2026 01:12:09.782] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Jul2026 01:12:09.782] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[20Jul2026 01:12:09.806] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire_curios:ring_of_bartering_recipe_2
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:silver_block'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.21-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.21-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.21-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.21.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.21.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.21.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[20Jul2026 01:12:09.848] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Jul2026 01:12:09.848] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[20Jul2026 01:12:09.848] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Jul2026 01:12:09.848] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[20Jul2026 01:12:09.861] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Jul2026 01:12:09.861] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[20Jul2026 01:12:09.885] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[20Jul2026 01:12:09.885] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[20Jul2026 01:12:09.915] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Jul2026 01:12:09.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[20Jul2026 01:12:09.916] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Jul2026 01:12:09.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[20Jul2026 01:12:09.941] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Jul2026 01:12:09.941] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[20Jul2026 01:12:09.947] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Jul2026 01:12:09.948] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[20Jul2026 01:12:09.952] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Jul2026 01:12:09.952] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[20Jul2026 01:12:10.015] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Jul2026 01:12:10.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[20Jul2026 01:12:10.036] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Jul2026 01:12:10.036] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[20Jul2026 01:12:10.060] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Jul2026 01:12:10.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[20Jul2026 01:12:10.082] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Jul2026 01:12:10.083] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[20Jul2026 01:12:10.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[20Jul2026 01:12:10.200] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement legendary_monsters:defeat_ambusher: Expected item to be an item, was unknown string 'legendary_monsters:ancient_dripstone_shard'
+[20Jul2026 01:12:10.234] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3027 advancements
+[20Jul2026 01:12:10.240] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[20Jul2026 01:12:10.252] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 15 curio slots
+[20Jul2026 01:12:10.262] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[20Jul2026 01:12:10.264] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[20Jul2026 01:12:10.286] [main/INFO] [boss_checklist/]: Number of registered boss ids on the server: 24
+[20Jul2026 01:12:10.286] [main/INFO] [Dungeon Crawl/]: Loading data...
+[20Jul2026 01:12:10.560] [main/INFO] [Dungeon Crawl/]: Done.
+[20Jul2026 01:12:10.565] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id uniqueaccessories:chest/waist_warmer_in_village_tqiga_house - error: Not a JSON object: null
+[20Jul2026 01:12:10.569] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id cardiac:life_bottle - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: cardiac:life_bottle
+[20Jul2026 01:12:10.705] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:montagne is different after loading
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"montagne","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_large"],"req_type":"HAS_ALL"}]},"stats":[{"type":"PERCENT","max":-5.0,"min":-10.0,"stat":"move_speed"},{"type":"FLAT","max":30.0,"min":20.0,"stat":"armor"}],"weight":1000}
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"montagne","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_large"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":-10.0,"max":-5.0,"stat":"move_speed","type":"PERCENT"},{"min":20.0,"max":30.0,"stat":"armor","type":"FLAT"}]}
+[20Jul2026 01:12:10.706] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.707] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.707] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.714] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.714] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:gladiator_shield is different after loading
+[20Jul2026 01:12:10.714] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"gladiator_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_middle"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":25.0,"min":10.0,"stat":"threat_generated"}],"weight":1000}
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"gladiator_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_middle"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":10.0,"max":25.0,"stat":"threat_generated","type":"FLAT"}]}
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.715] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.716] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.716] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:healer_small_shield is different after loading
+[20Jul2026 01:12:10.716] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.716] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"healer_small_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_small"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":24.0,"min":12.0,"stat":"increase_healing"}],"weight":1000}
+[20Jul2026 01:12:10.716] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.717] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"healer_small_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_small"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":12.0,"max":24.0,"stat":"increase_healing","type":"FLAT"}]}
+[20Jul2026 01:12:10.717] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.717] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.717] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.718] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.718] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:small_shield_of_black_magic is different after loading
+[20Jul2026 01:12:10.718] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"small_shield_of_black_magic","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_small"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":20.0,"min":8.0,"stat":"mana"}],"weight":1000}
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"small_shield_of_black_magic","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_small"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":8.0,"max":20.0,"stat":"mana","type":"FLAT"}]}
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.719] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:ghillie_shield is different after loading
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"ghillie_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_small"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":-5.0,"min":-15.0,"stat":"threat_generated"},{"type":"FLAT","max":6.0,"min":2.0,"stat":"projectile_damage"}],"weight":1000}
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.720] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"ghillie_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_small"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":-15.0,"max":-5.0,"stat":"threat_generated","type":"FLAT"},{"min":2.0,"max":6.0,"stat":"projectile_damage","type":"FLAT"}]}
+[20Jul2026 01:12:10.721] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.721] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.721] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.725] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.725] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:dozer_shield is different after loading
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","guid":"dozer_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_large"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":30.0,"min":15.0,"stat":"fire_resist"}],"weight":1000}
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"dozer_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_large"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":15.0,"max":30.0,"stat":"fire_resist","type":"FLAT"}]}
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.726] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.728] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.728] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:leather_shield is different after loading
+[20Jul2026 01:12:10.728] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.728] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"leather_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_middle"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":8.0,"min":3.0,"stat":"energy"}],"weight":1000}
+[20Jul2026 01:12:10.728] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.729] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"leather_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_middle"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":3.0,"max":8.0,"stat":"energy","type":"FLAT"}]}
+[20Jul2026 01:12:10.729] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.729] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.729] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:shieldspire is different after loading
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"shieldspire","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_large"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":30.0,"min":20.0,"stat":"threat_generated"}],"weight":1000}
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"shieldspire","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_large"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":20.0,"max":30.0,"stat":"threat_generated","type":"FLAT"}]}
+[20Jul2026 01:12:10.731] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.732] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.732] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.734] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:tower_shield is different after loading
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"tower_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_large"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":15.0,"min":10.0,"stat":"armor"},{"type":"FLAT","max":10.0,"min":5.0,"stat":"block_chance"}],"weight":1000}
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"tower_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_large"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":10.0,"max":15.0,"stat":"armor","type":"FLAT"},{"min":5.0,"max":10.0,"stat":"block_chance","type":"FLAT"}]}
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.735] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.736] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:10.740] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ============[Mine and Slash Datapack Check Failed]=================
+[20Jul2026 01:12:10.740] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: The file with id mmorpg_affixes:paladin_shield is different after loading
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json from your datapack:
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"type":"implicit","eye_aura_req":"","guid":"paladin_shield","only_one_per_item":true,"requirements":{"tag_requirements":[{"type":"GearSlot","excluded":[],"included":["shield_middle"],"req_type":"HAS_ALL"}]},"stats":[{"type":"FLAT","max":15.0,"min":10.0,"stat":"magic_shield"}],"weight":1000}
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Json after it was loaded and turned back into json:
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: {"guid":"paladin_shield","eye_aura_req":"","only_one_per_item":true,"one_of_a_kind":"","weight":1000,"requirements":{"tag_requirements":[{"type":"GearSlot","included":["shield_middle"],"excluded":[],"req_type":"HAS_ALL"}]},"type":"implicit","stats":[{"min":10.0,"max":15.0,"stat":"magic_shield","type":"FLAT"}]}
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: Please check for things like wrong field names, missing fields, wrong types used etc.
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: You can copy and paste these jsons into any online Json Comparison/Diff tools see what the difference is. Like: www.jsondiff.com
+[20Jul2026 01:12:10.741] [main/WARN] [Exile Log: com.robertx22.library_of_exile.registry.JsonExileRegistry/]: ===================================================================
+[20Jul2026 01:12:11.312] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[20Jul2026 01:12:11.315] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/biome_mappings/default.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:11.317] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/model_pools.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:11.317] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/types/default.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:11.317] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/types/desert/default.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:11.318] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/types/forest/default.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:11.318] [main/ERROR] [DungeonZ/]: Error occurred while loading resource dungeoncrawl:dungeon/types/mountains/default.json. java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[20Jul2026 01:12:12.126] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 9.577496ms
+[20Jul2026 01:12:12.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Jul2026 01:12:12.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Jul2026 01:12:12.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Jul2026 01:12:12.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Jul2026 01:12:12.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Jul2026 01:12:12.528] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Jul2026 01:12:12.638] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Jul2026 01:12:12.639] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Jul2026 01:12:12.640] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Jul2026 01:12:12.640] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Jul2026 01:12:12.689] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Jul2026 01:12:12.693] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
+[20Jul2026 01:12:12.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ENTITY_SUMMON_BLACKLIST was corrected from [minecraft:allay, minecraft:armor_stand] to its default, [minecraft:allay, minecraft:armor_stand]. 
+[20Jul2026 01:12:12.704] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/modsito-1/servidor_minecraft/./world/serverconfig/mine_and_slash-server.toml is not correct. Correcting
+[20Jul2026 01:12:12.957] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/modsito-1/servidor_minecraft/world/dimensions/the_harvest/harvest - If this is a the_harvest:harvest dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[20Jul2026 01:12:12.957] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[20Jul2026 01:12:12.998] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/modsito-1/servidor_minecraft/world/dimensions/ancient_obelisks/obelisk - If this is a ancient_obelisks:obelisk dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[20Jul2026 01:12:12.999] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[20Jul2026 01:12:13.032] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: Wiping dimension folder: /workspaces/modsito-1/servidor_minecraft/world/dimensions/dungeon_realm/dungeon - If this is a dungeon_realm:dungeon dimension folder, then the feature is working correctly. Report if it tries deleting something else though!
+[20Jul2026 01:12:13.033] [Server thread/INFO] [Exile Log: com.robertx22.library_of_exile.dimension.WipeDimensionFeature/]: These dimensions are meant to be wiped on server boot to remain infinite.
+[20Jul2026 01:12:13.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Jul2026 01:12:16.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Jul2026 01:12:20.506] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.514] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.517] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.518] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.519] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.520] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.520] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.521] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:20.820] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:21.273] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:21.772] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:22.272] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jul2026 01:12:22.775] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[20Jul2026 01:12:23.273] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Jul2026 01:12:23.772] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[20Jul2026 01:12:24.364] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[20Jul2026 01:12:24.418] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7649 ms
+[20Jul2026 01:12:24.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.754s)! For help, type "help"
+[20Jul2026 01:12:24.480] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Jul2026 01:12:24.480] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Server starting, DEV_DEBUG = false
+[20Jul2026 01:12:24.481] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Total advancements loaded: 3027
+[20Jul2026 01:12:24.481] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/farming_level_10 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/farming_level_25 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/farming_level_40 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/fishing_level_12 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/fishing_level_24 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/fishing_level_36 exists: false
+[20Jul2026 01:12:24.482] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_10 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_20 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_30 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_40 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_50 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_60 exists: false
+[20Jul2026 01:12:24.483] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_70 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_80 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_90 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/husbandry_level_100 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/combat_level_20 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/combat_level_40 exists: false
+[20Jul2026 01:12:24.484] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/combat_level_60 exists: false
+[20Jul2026 01:12:24.485] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/mining_level_5 exists: false
+[20Jul2026 01:12:24.485] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/mining_level_10 exists: false
+[20Jul2026 01:12:24.485] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/mining_level_15 exists: false
+[20Jul2026 01:12:24.485] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/mining_level_20 exists: false
+[20Jul2026 01:12:24.485] [Server thread/INFO] [net.mahjerion.mns_extras.ProfessionAdvancementHandler/]: Advancement mns_extras:profession/mining_level_25 exists: false
+[20Jul2026 01:12:24.488] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[20Jul2026 01:12:24.490] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeClientHooks@bf16fd2 for service interface journeymap.api.services.ClientPlatformService
+[20Jul2026 01:12:24.492] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@68baf6ff for service interface journeymap.api.services.CommonPlatformService
+[20Jul2026 01:12:24.503] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[20Jul2026 01:12:24.517] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[20Jul2026 01:12:24.559] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[20Jul2026 01:12:24.559] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[20Jul2026 01:12:56.214] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:12:56.215] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:12:56.238] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5c467cea[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55560) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:13:12.651] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:13:12.651] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:13:12.682] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5b58902c[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55563) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:13:26.602] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:13:26.603] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:13:26.632] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7deba43d[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55569) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:14:34.451] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:14:34.451] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:14:34.481] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1ce4ce9f[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55602) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:14:44.245] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:14:44.246] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:14:44.282] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@74b8ea82[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55605) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:14:51.250] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:14:51.250] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:14:51.283] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2a9bf081[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55607) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:14:58.052] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:14:58.052] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:14:58.082] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e0d1456[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55609) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:15:35.431] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5f48c85a[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55611) lost connection: Timed out
+[20Jul2026 01:15:43.795] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:15:43.796] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:15:43.833] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1f983387[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55620) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:15:59.595] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:15:59.595] [Netty Epoll Server IO #5/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:15:59.632] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5122b561[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55624) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:16:37.083] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@8e7b94d[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55626) lost connection: Disconnected
+[20Jul2026 01:27:26.013] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: mathew389[/10.232.187.234:52252] logged in with entity id 205 at (1079.4052373226086, 80.0, -772.6964080696567)
+[20Jul2026 01:27:26.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mathew389 joined the game
+[20Jul2026 01:27:30.836] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4858ms or 97 ticks behind
+[20Jul2026 01:28:26.795] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: mathew389 lost connection: Disconnected
+[20Jul2026 01:28:26.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mathew389 left the game
+[20Jul2026 01:31:23.559] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [born_in_chaos_v1:born_in_chaos_v1] rejected their client side version number
+[20Jul2026 01:31:23.559] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[20Jul2026 01:31:23.581] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1558ae53[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55923) lost connection: Connection closed - mismatched mod channel list
+[20Jul2026 01:32:56.331] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@528bb84b[id=<null>,name=AkuDeus,properties={},legacy=false] (/10.232.187.253:55961) lost connection: Disconnected
